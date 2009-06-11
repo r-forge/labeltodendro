@@ -44,8 +44,17 @@ echo $contents; } ?>
 <!-- end of project description -->
 
 <p> No content added. </p>
+<h1>bclust R-Package</h1>
+
+
+
+<a href="http://bclust.probstat.ch"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
+</center>
+
+
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
+<p> The <strong>project description and documentation page</strong> you can find <a href="http://labeltodendro.probstat.ch"><strong>here</strong></a>. </p>
 
 </body>
 </html>
