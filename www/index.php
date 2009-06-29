@@ -43,12 +43,12 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> No content added. </p>
+<center>
 <h1>bclust R-Package</h1>
 
 
 
-<a href="http://bclust.probstat.ch"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
+<a href="http://labeltodendro.probstat.ch"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
 </center>
 
 
