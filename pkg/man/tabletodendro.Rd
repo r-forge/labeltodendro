@@ -1,4 +1,4 @@
- \name{tabletodedndro}
+ \name{tabletodendro}
 \alias{tabletodendro}
 \title{converts a label matrix and a frequency vector to a labclust object}
 \description{The function assumes that labels appear in increasing order and also each row sorted in agglomerative order.}
