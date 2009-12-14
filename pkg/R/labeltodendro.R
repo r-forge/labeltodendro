@@ -169,7 +169,7 @@ i<-i+1
 y[i,]<-relabel(y[i,]) # insists increasing order of labels
 clustorder<-clustorder[order(y[i,])] # finds approrpiate order of labels
 
-if (sum(y[1,]==rep(1,ncol(y)))<ncol(y)) {y<-rbind(rep(1,ncol(y)),y); freq<-c(freq[1],freq)} # adds all data in one group
+if (sum(y[1,]==rep(1,ncol(y)))<ncol(y)) {y<-rbind(rep(1,ncol(y)),y); freq<-c(0,freq)} # adds all data in one group
 if (sum(y[nrow(y),]==1:ncol(y))<ncol(y)) {y<-rbind(y,1:ncol(y)); freq<-c(freq,0)} # adds all data are separate
 
 labels<-labels[clustorder]
@@ -215,7 +215,7 @@ dendroploth <- function(x, h, cluscol, leaflab= "none", lwd=1, ...)
                  leaflab=leaflab, nodePar=NULL, edgePar=list(), horiz=TRUE)
         x1 = x2 + 1
    }
-abline(v=h,col=1,lwd=lwd) 
+abline(v=h,col="gray",lwd=lwd,lty=2) 
 }
 
 
@@ -244,7 +244,7 @@ dendroplotv <- function(x, h, cluscol, leaflab= "none", horiz=TRUE, lwd=1, ...)
                  leaflab=leaflab, nodePar=NULL, edgePar=list(), horiz=FALSE)
         x1 = x2 + 1
    }
-abline(h=h,col=1,lwd=lwd)   
+abline(h=h,col="gray",lwd=lwd,lty=2)   
 }
 
 if (sum(x$labmat[nrow(x$labmat),]==(1:ncol(x$labmat)))==ncol(x$labmat)) {ylim<-c(x$freq[nrow(x$labmat)],max(x$freq))} else {ylim<-c(0,max(x$height))}
