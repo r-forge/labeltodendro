@@ -44,7 +44,7 @@ echo $contents; } ?>
 <!-- end of project description -->
 
 <center>
-<h1>bclust R-Package</h1>
+<h1>labeltodendro R-Package</h1>
 
 
 
