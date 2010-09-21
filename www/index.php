@@ -48,11 +48,12 @@ echo $contents; } ?>
 
 
 
-<a href="http://labeltodendro.probstat.ch"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
+<a href="dendroguide.pdf"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
 </center>
 
 
 
+<p> The <strong>Guide</strong> you can find <a href="dendroguide.pdf"><strong>here</strong></a>. </p>
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 <p> The <strong>project description and documentation page</strong> you can find <a href="http://labeltodendro.probstat.ch"><strong>here</strong></a>. </p>
 
