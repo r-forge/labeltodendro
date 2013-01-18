@@ -48,7 +48,7 @@ echo $contents; } ?>
 
 
 
-<a href="dendroguide.pdf"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
+<a href="http://vahid.probstat.ca/paper/2011-dendro.pdf"><img src="colordendro.png" width="800" height="1000" border="0" alt=""></a>
 </center>
 
 

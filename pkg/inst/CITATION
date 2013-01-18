@@ -1,0 +1,21 @@
+
+citHeader("To cite labeltodendro in publications use:")
+
+citEntry(entry = "InBook",
+booktitle        = "Probability: Interpretation, Theory and Applications",
+title        = "Dendrogram Representation of Stochastic Clustering",
+  author       = personList(as.person("Vahid Partovi Nia"),
+                   as.person("David A. Stephens")),
+editor			="Yuriy S. Shmaliy",
+  year         = "2011",
+  chapter      = "6",
+  pages        = "203--218",
+  url          = "https://www.novapublishers.com/catalog/product_info.php?products_id=28702&osCsid=b",
+publisher = "Nova Publishers",
+  textVersion  =
+  paste("Vahid Partovi Nia, David A. Stephens (2011).",
+        "Dendrogram Representation of Stochastic Clustering.",
+        "in Probability: Interpretation, Theory and Applications, 203-218.")
+)
+
+
